@@ -18,25 +18,25 @@ export default function Navbar() {
 									href="/"
 									className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
 								>
-									Home
+									Inicio
 								</Link>
 								<Link
-									href="/about"
+									href="/nosotros"
 									className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
 								>
-									About
+									Nosotros
 								</Link>
 								<Link
-									href="/services"
+									href="/mentorias"
 									className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
 								>
-									Services
+									Mentorias
 								</Link>
 								<Link
-									href="/contact"
+									href="/contacto"
 									className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
 								>
-									Contact
+									Contacto
 								</Link>
 							</div>
 						</div>
