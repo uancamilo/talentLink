@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const LoginForm = () => {
 	return (
@@ -20,7 +21,6 @@ const LoginForm = () => {
 							className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
 						/>
 					</div>
-
 					<div className="mb-6">
 						<label
 							className="block text-gray-700 text-sm font-bold mb-2"
@@ -35,7 +35,6 @@ const LoginForm = () => {
 							className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
 						/>
 					</div>
-
 					<div className="flex items-center justify-between mb-4">
 						<div className="flex items-center">
 							<input
@@ -55,13 +54,13 @@ const LoginForm = () => {
 							¿Olvidaste tu contraseña?
 						</a>
 					</div>
-
-					<button
-						type="submit"
-						className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-					>
-						Iniciar Sesión
-					</button>
+					<Link href="/mentorias">
+						<button
+							className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+						>
+							Iniciar Sesión
+						</button>
+					</Link>
 				</form>
 			</div>
 		</div>

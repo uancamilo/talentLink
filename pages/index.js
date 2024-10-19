@@ -1,9 +1,9 @@
-import Carousel from "../components/Carrousel";
+import Principal from "../components/Principal";
 
 export default function Index() {
 	return (
 		<>
-			<Carousel />
+			<Principal />
 		</>
 	);
 }
